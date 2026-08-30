@@ -106,6 +106,21 @@ Generated artifacts (models, binaries, caches) land outside the repository, in a
 
 Whether the skill actually helps an agent is treated as a measurable question — the experiment design, adopted benchmarks, and expected effect sizes are documented in [usefulness.md](skills/lodestone/references/usefulness.md).
 
+## Citation
+
+If lodestone is useful in your work, cite it via the repository's `CITATION.cff` (the "Cite this repository" button in the sidebar), or directly:
+
+```bibtex
+@software{lodestone,
+  author  = {choihk},
+  title   = {Lodestone: semantic duplicate discovery for codebases},
+  year    = {2026},
+  version = {1.0.4},
+  url     = {https://github.com/choiHkk/lodestone},
+  license = {Apache-2.0}
+}
+```
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE).
