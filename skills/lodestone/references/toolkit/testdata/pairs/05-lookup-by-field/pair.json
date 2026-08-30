@@ -1,0 +1,11 @@
+{
+ "split": "tune",
+ "donor": {
+  "func": "*Registry.findByName"
+ },
+ "planted": {
+  "into": "internal/loader/lookup.go",
+  "func": "lookupByLabel"
+ },
+ "why": "Return the member of a listed collection whose name matches, propagating the listing error and returning nothing when no member matches. Donor scans the slice; planted takes the listing as a callback and indexes it into a map first."
+}

@@ -1,0 +1,38 @@
+{
+  "name": "lodestone",
+  "owner": {
+    "name": "choiHkk",
+    "url": "https://github.com/choiHkk"
+  },
+  "metadata": {
+    "description": "Pulls the code that matters out of the mass \u2014 semantic retrieval across codebases with local embeddings",
+    "version": "1.0.4"
+  },
+  "plugins": [
+    {
+      "name": "lodestone",
+      "description": "Surface and review candidate source-unit pairs with local embeddings plus lexical and structural detectors",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/lodestone"
+      ],
+      "version": "1.0.4",
+      "author": {
+        "name": "choiHkk"
+      },
+      "category": "development",
+      "license": "Apache-2.0",
+      "keywords": [
+        "code-search",
+        "semantic-similarity",
+        "duplicate-detection",
+        "embeddings",
+        "mlx",
+        "local"
+      ],
+      "homepage": "https://github.com/choiHkk/lodestone",
+      "repository": "https://github.com/choiHkk/lodestone"
+    }
+  ]
+}

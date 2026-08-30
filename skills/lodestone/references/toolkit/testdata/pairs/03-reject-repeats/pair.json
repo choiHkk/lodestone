@@ -1,0 +1,11 @@
+{
+ "split": "holdout",
+ "donor": {
+  "func": "refuseDuplicatePatterns"
+ },
+ "planted": {
+  "into": "internal/registry/repeats.go",
+  "func": "rejectRepeated"
+ },
+ "why": "Refuse a collection that names the same key twice, reporting the source and the repeated key. Donor tracks a seen map in one pass; planted sorts a copy and compares neighbours."
+}

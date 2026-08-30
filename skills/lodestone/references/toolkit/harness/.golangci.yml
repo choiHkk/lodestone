@@ -1,0 +1,46 @@
+version: "2"
+
+linters:
+  default: all
+  disable:
+    - exhaustruct
+    - exhaustruct_v5
+    - gomodguard
+    - gomodguard_v2
+    - nlreturn
+    - noinlineerr
+    - testpackage
+    - wsl
+    - wsl_v5
+
+  settings:
+    depguard:
+      rules:
+        main:
+          list-mode: strict
+          allow:
+            - $gostd
+            - lodestone
+            - golang.org/x/tools/go/packages
+            - github.com/golangci/dupl/lib
+            - github.com/golangci/dupl/printer
+
+    tagliatelle:
+      case:
+        rules:
+          json: camel
+
+    revive:
+      rules:
+        - name: exported
+          disabled: true
+        - name: package-comments
+          disabled: true
+
+formatters:
+  enable:
+    - gofmt
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0

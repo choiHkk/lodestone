@@ -1,0 +1,7 @@
+.DS_Store
+.swiftpm/
+*.pyc
+__pycache__/
+go.work
+go.work.sum
+skills/lodestone/references/toolkit/runtime/.build/

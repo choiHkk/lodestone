@@ -1,0 +1,7 @@
+This Go repository may contain functions that implement the same behavior in more than one place, even when their names, packages, and implementations differ.
+
+Find function pairs that are genuine consolidation candidates. For each pair you conclude is a real duplicate, report one line:
+
+  <path>::<FuncName>  <->  <path>::<FuncName>  — one-sentence reason
+
+Only report pairs you actually believe implement the same behavior. Do not edit any code.

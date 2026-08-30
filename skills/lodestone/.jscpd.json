@@ -1,0 +1,22 @@
+{
+  "path": [
+    "references/toolkit/harness/cmd",
+    "references/toolkit/harness/internal",
+    "references/toolkit/runtime/Sources",
+    "references/toolkit/scripts"
+  ],
+  "format": [
+    "go",
+    "python",
+    "swift"
+  ],
+  "mode": "mild",
+  "minLines": 5,
+  "minTokens": 50,
+  "maxLines": 1000,
+  "maxSize": "1mb",
+  "reporters": [
+    "console"
+  ],
+  "noTips": true
+}

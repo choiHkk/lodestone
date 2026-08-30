@@ -1,0 +1,11 @@
+{
+ "split": "holdout",
+ "donor": {
+  "func": "decode"
+ },
+ "planted": {
+  "into": "internal/models/parsebody.go",
+  "func": "parseBody"
+ },
+ "why": "Decode a request body into a value, rejecting unknown fields and separating an oversized body from a malformed one. Donor streams a decoder off the body; planted buffers the body first and decodes the buffer."
+}

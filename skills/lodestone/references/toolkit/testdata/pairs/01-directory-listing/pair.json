@@ -1,0 +1,12 @@
+{
+ "split": "tune",
+ "donor": {
+  "func": "configPaths"
+ },
+ "planted": {
+  "into": "internal/tools/discover.go",
+  "func": "specFiles"
+ },
+ "why": "List a directory's files filtered by an extension set, sorted. Donor globs once per extension; planted reads the directory and matches suffixes.",
+ "note": "Every shipped setting was chosen against this pair, so it cannot serve as held-out evidence."
+}

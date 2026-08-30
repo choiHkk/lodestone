@@ -1,0 +1,11 @@
+{
+ "split": "tune",
+ "donor": {
+  "func": "readJSON"
+ },
+ "planted": {
+  "into": "internal/schema/loaddoc.go",
+  "func": "loadDocument"
+ },
+ "why": "Read a JSON file into a value, distinguishing absence from a parse failure and naming the base file in every error. Donor reads the whole file then unmarshals; planted stats, opens, and streams a decoder."
+}
