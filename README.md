@@ -1,4 +1,4 @@
-# Lodestone
+# 🧿 Lodestone
 
 > **Pulls the code that matters out of the mass — matched by meaning, not by name.**
 
