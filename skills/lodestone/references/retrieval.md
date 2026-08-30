@@ -12,7 +12,7 @@ Reciprocal rank fusion combines only positions:
 score(pair) = sum over retrievers of 1 / (k + rank)
 ```
 
-with `k = 60`. A pair found by two retrievers therefore outranks a pair found once, no matter how confident that single retriever was. Agreement between independent methods is the signal; magnitude within one method is not.
+with `k = 60`, following [Cormack, Clarke & Büttcher (2009)](https://dl.acm.org/doi/10.1145/1571941.1572114), whose measurements also motivate the default `k`. A pair found by two retrievers therefore outranks a pair found once, no matter how confident that single retriever was. Agreement between independent methods is the signal; magnitude within one method is not.
 
 A retriever that contributes no pairs is a valid outcome, not a failure. It removes one term from the sum and nothing else.
 

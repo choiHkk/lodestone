@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use lodestone in your work, please cite it as below."
+title: "Lodestone"
+type: software
+authors:
+  - name: "choihk"
+repository-code: "https://github.com/choiHkk/lodestone"
+url: "https://github.com/choiHkk/lodestone"
+license: Apache-2.0
+version: 1.0.4
+date-released: 2026-08-31
+abstract: "An Agent Skill that finds duplicated and near-duplicate logic across a codebase by ranking candidate source-unit pairs with local embeddings fused with lexical and structural detectors."
